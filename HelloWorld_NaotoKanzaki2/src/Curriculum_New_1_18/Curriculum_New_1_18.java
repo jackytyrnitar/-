@@ -8,7 +8,6 @@ public class Curriculum_New_1_18 {
 	static void q1(String str, int num) {
 		System.out.println(str + " " + num);
 	}
-	
 
 	// Q2：引数に整数を渡すと渡した値同士を乗算しコンソールに出力するメソッドを作成してください
 	public static void q2(int numkake1, int numkake2) {
