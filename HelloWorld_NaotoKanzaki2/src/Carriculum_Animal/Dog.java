@@ -1,10 +1,16 @@
 package Carriculum_Animal;
 
 public class Dog {
-
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
-}
+	// Q1：フィールドに動物の名前の変数を定義してください。
+			String AnimalName;
+			// Q2：フィールドに動物の数の変数を定義してください。
+			int AnimalAmount;
+			// Q3：Q1で作成した変数に「犬」を代入するコンストラクタを作成してください。
+			public Dog() {
+				this.AnimalName = "犬";
+			}
+			// Q4：Q2で作成した変数に引数を代入するコンストラクタを作成してください。
+			public Dog(int AnimalAmount) {
+				this.AnimalAmount = AnimalAmount;
+			}
+		}
