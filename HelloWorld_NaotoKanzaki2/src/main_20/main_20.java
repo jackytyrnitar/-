@@ -20,7 +20,7 @@ public class main_20 {
 
      //日時を出力
         LocalDateTime now = LocalDateTime.now();
-	    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd H:m:s");
+	    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 	    String formattedDate = now.format(formatter);
 	    System.out.println("今の現在の時刻は"+formattedDate+"です。");
         
