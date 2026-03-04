@@ -1,6 +1,6 @@
 package managing;
 
-public class managing {
+public class Managing {
 
 	//国名の変数を定義
 	public String countryName;
@@ -12,7 +12,7 @@ public class managing {
     public String foodType;
 
     //コンストラクタを作成
-    public managing(String countryName, String foodName, String foodType) {
+    public Managing(String countryName, String foodName, String foodType) {
         this.countryName = countryName;
         this.foodName = foodName;
         this.foodType = foodType;

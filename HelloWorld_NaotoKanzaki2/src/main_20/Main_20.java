@@ -3,15 +3,15 @@ package main_20;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import managing.managing;
+import managing.Managing;
 
-public class main_20 {
+public class Main_20 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
      //  オブジェクト作成
-      managing m = new managing("日本", "寿司", "和食");
+      Managing m = new Managing("日本", "寿司", "和食");
 
      //  メッセージ出力
         System.out.println("こんにちは！ここは" + m.countryName + "です！");
