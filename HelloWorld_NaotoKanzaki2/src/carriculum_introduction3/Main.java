@@ -12,6 +12,21 @@ public class Main {
 
 		  Person.printCount();
 
+		  Car car = new Car();
+			Bicycle bicycle = new Bicycle();
+
+			// 問題4：setOwnerで所有者を設定
+			car.setOwner(person1.fullName());
+			bicycle.setOwner(person2.fullName());
+
+			// 問題5：ownerを出力
+			System.out.println(car.getOwner());
+			System.out.println(bicycle.getOwner());
+
+			// 問題10：buyメソッドで購入
+			person1.buy(car);
+			person2.buy(bicycle);
+		  
 	}
 
 }

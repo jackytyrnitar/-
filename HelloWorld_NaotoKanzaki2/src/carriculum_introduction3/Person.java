@@ -43,4 +43,16 @@ class Person {
 		  System.out.println("合計" + Person.count + "人です");
 		 }
 	 
+	// 問題6〜8：Carを購入するbuyメソッド
+		public void buy(Car car) {
+			car.setOwner(this.fullName());
+			System.out.println(this.fullName() + "が購入しました");
+		}
+
+		// 問題9：Bicycleを購入するbuyメソッド
+		public void buy(Bicycle bicycle) {
+			bicycle.setOwner(this.fullName());
+			System.out.println(this.fullName() + "が購入しました");
+		}
+	 
 }
